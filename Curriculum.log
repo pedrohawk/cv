@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.10)  10 MAR 2025 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.10)  10 MAR 2025 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,6 +290,7 @@ LaTeX Font Info:    ... okay on input line 31.
 \c@mv@tabular=\count292
 \c@mv@boldtabular=\count293
 Package hyperref Info: Link coloring OFF on input line 31.
+(Curriculum.out) (Curriculum.out)
 \@outlinefile=\write3
 \openout3 = `Curriculum.out'.
 
@@ -299,14 +300,6 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 44.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 44.
-c:/Users/psilva/Documents/personal/Cv/cv/Curriculum.tex:45: You can't use `macro parameter character #' in horizontal mode.
-l.45 \textbf{Languages:} C#
-                           , Java, Kotlin \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -328,26 +321,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `Curriculum.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Curriculum.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Curriculum.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9982 strings out of 473522
- 159241 string characters out of 5714125
- 579618 words of memory out of 5000000
- 33105 multiletter control sequences out of 15000+600000
+ 9987 strings out of 473522
+ 159406 string characters out of 5714125
+ 579685 words of memory out of 5000000
+ 33106 multiletter control sequences out of 15000+600000
  594973 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,391b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\psilva\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk><C:/Users/psilva/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Users/psilva/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Users/psilva/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Curriculum.pdf (1 page, 145132 bytes).
+Output written on Curriculum.pdf (1 page, 145114 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

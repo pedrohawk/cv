@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1741620685.48682 "c:/Users/psilva/Documents/personal/Cv/cv/Curriculum.tex" "Curriculum.pdf" "Curriculum" 1741620689.93017 2
+["pdflatex"] 1741621337.74838 "c:/Users/psilva/Documents/personal/Cv/cv/Curriculum.tex" "Curriculum.pdf" "Curriculum" 1741621339.8525 0
   "C:/Users/psilva/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1741616947.24913 189877 32ed00ceb52de73012f6f234fbd62dec ""
   "C:/Users/psilva/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1741608759.27867 21972 f185e1f4ef947cf930944279e22180fa ""
   "C:/Users/psilva/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741608579.1855 12036614 ecdf4bafbc4991af826f1ba91a279f86 ""
@@ -76,9 +76,9 @@
   "C:/Users/psilva/AppData/Local/Programs/MiKTeX/tex/latex/xcharter/t1xcharter-tlf.fd" 1719043975 2106 35ce47116e18814626415bac8faf9007 ""
   "C:/Users/psilva/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/psilva/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "Curriculum.aux" 1741620689.14405 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "Curriculum.out" 1741620688.93245 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "c:/Users/psilva/Documents/personal/Cv/cv/Curriculum.tex" 1741620679.38406 6018 698ad87d3565009ad38f23d8e5199351 ""
+  "Curriculum.aux" 1741621339.35131 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "Curriculum.out" 1741621339.22312 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "c:/Users/psilva/Documents/personal/Cv/cv/Curriculum.tex" 1741621336.8801 5951 40c22339ce5f9be69d114dbc830e2fd6 ""
   (generated)
   "Curriculum.aux"
   "Curriculum.log"

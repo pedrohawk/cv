@@ -117,6 +117,12 @@ INPUT .\Curriculum.aux
 INPUT .\Curriculum.aux
 INPUT Curriculum.aux
 OUTPUT Curriculum.aux
+INPUT .\Curriculum.out
+INPUT .\Curriculum.out
+INPUT Curriculum.out
+INPUT Curriculum.out
+INPUT .\Curriculum.out
+INPUT .\Curriculum.out
 OUTPUT Curriculum.out
 OUTPUT Curriculum.pdf
 INPUT C:\Users\psilva\AppData\Local\Programs\MiKTeX\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1.tfm
