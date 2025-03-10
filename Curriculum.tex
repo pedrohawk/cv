@@ -1,0 +1,128 @@
+% !TEX root = Curriculum.tex
+
+\documentclass[11pt]{article}       % set main text size
+\usepackage[letterpaper,                % set paper size to letterpaper. change to a4paper for resumes outside of North America
+top=0.5in,                          % specify top page margin
+bottom=0.5in,                       % specify bottom page margin
+left=0.5in,                         % specify left page margin
+right=0.5in]{geometry}              % specify right page margin
+                       
+\usepackage{XCharter}               % set font. comment this line out if you want to use the default LaTeX font Computer Modern
+\usepackage[T1]{fontenc}            % output encoding
+\usepackage[utf8]{inputenc}         % input encoding
+\usepackage{enumitem}               % enable lists for bullet points: itemize and \item
+\usepackage[hidelinks]{hyperref}    % format hyperlinks
+\usepackage{titlesec}               % enable section title customization
+\raggedright                        % disable text justification
+\pagestyle{empty}                   % disable page numbering
+
+% ensure PDF output will be all-Unicode and machine-readable
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% format section headings: bolding, size, white space above and below
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+
+% format bullet points: size, white space above and below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt, topsep=7pt} %%% Test various topsep values to fix vertical spacing errors
+
+% resume starts here
+\begin{document}
+
+% name
+\centerline{\Huge John Doe}
+
+\vspace{5pt}
+
+% contact information
+\centerline{\href{mailto:pedrotiagosilva9084@gmail.com}{pedrotiagosilva9084@gmail.com} | \href{https://github.com/pedrohawk}{github.com/pedrohawk}}
+
+\vspace{-10pt}
+
+% skills section
+\section*{Skills}
+\textbf{Languages:} C#, Java, Kotlin \\
+\textbf{Frameworks:} .NET, .NET MAUI, ADO.NET, Xamarin, 
+
+\vspace{-6.5pt}
+
+% experience section
+\section*{Experience}
+\textbf{Full-Stack developer,} {Tecmic} -- Leiria, PT \hfill Mar 2020 -- Present \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Created and maintain the services and APIs to share public information of Portugal highways with Google (and other clients) implementing GTFS Protocol. 
+  \item Product Manager of the public information Apps of some Portugal and Brasil highways, with known clients like \href{https://play.google.com/store/search?q=carris&c=apps}(Carris) 
+  \item Project and code maintnance with mid-size team, integrating CI and CD services and project management with agile tools from Azure DevOps Server
+\end{itemize}
+
+\textbf{Full-Stack mobile developer,} {IPN - LIS} -- Coimbra, PT \hfill Mar 2017 -- Mar 2020 \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Starting as a developer of android native applications
+  \item Product management of android applications
+\end{itemize}
+
+\textbf{Mobile developer,} {WIT} -- Leiria, PT \hfill ... -- ... \\
+\vspace{-9pt}
+\begin{itemize}
+  \item \textbf{CAR:} \textbf{C}hallenge \textbf{A}ction \textbf{R}esult: \href{https://ca.indeed.com/career-advice/resumes-cover-letters/challenge-action-result-resume}{\underline{article 1}}, \href{https://www.topresume.com/career-advice/how-to-get-more-results-with-a-car-resume}{\underline{article 2}}
+  \item \textbf{CAR:} Challenge Action Result
+  \item \textbf{CAR:} Challenge Action Result
+\end{itemize}
+
+\textbf{Backend developer,} {CreativeSystems} -- S. João Madeira, PT \hfill ... -- ... \\
+\vspace{-9pt}
+\begin{itemize}
+  \item -
+  \item -
+  \item -
+\end{itemize}
+
+% \textbf{Job Title,} \href{https://www.fstl1992.com/}{Company} -- City, ST \hfill XXXX -- XXXX \\
+% \vspace{-9pt}
+
+\vspace{-18.5pt}
+
+% projects section
+\section*{Projects}
+\textbf{Project Title} \hfill \href{https://github.com/matiassingers/awesome-readme}{github.com/name/project} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item The more work experience you have, the less relevant outside-work projects tend to become
+  \item If you have something that really stands out, consider listing it here
+\end{itemize}
+
+\textbf{Project Title} \hfill \href{https://mitcommlab.mit.edu/meche/commkit/portfolio/}{project.com} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Only list real projects, not mandatory school projects or trivial tutorial projects found online 
+  \item Something that someone uses to solve a problem
+  \item Something that has users (can be just you, as long as you use it often) and is actively maintained and not just rotting in a GitHub repo, never to see a PR for the rest of its life
+\end{itemize}
+
+\textbf{Project Title} \hfill \href{https://www.hardwareishard.net/portfolio-database}{blog.com/projectname} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Resume checklist: \url{https://old.reddit.com/r/EngineeringResumes/wiki/checklist}
+  \item Google Docs version of this template: \url{https://docs.google.com/document/d/1MBvhATv8y-ESORopRoLSZ3f3HjkM_Qa_f8fIHAEqgnI/edit}
+\end{itemize}
+
+% alternate formatting for projects section
+% \section*{Projects}
+% \begin{itemize}
+%   \item \textbf{QuantSoftware Toolkit:} Open source Python library for data analysis and machine learning for finance
+%   \item \textbf{GitHub Visualization:} Data visualization of Git Log data using D3 to analyze project trends over time
+%   \item \textbf{Recommendation System:} Music and movie recommender systems using collaborative filtering on public datasets
+%   \item \textbf{Mac Setup:} Book that gives step by step instructions on setting up developer environment on Mac OS
+% \end{itemize}
+
+\vspace{-18.5pt}
+
+% education section
+\section*{Education}
+\textbf{School} -- MS in Software Engineering \hfill June 2018 \\
+\textbf{School} -- BS in Software Engineering \hfill Apr 2013
+
+\end{document}
