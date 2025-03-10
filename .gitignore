@@ -1,0 +1,30 @@
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.nav
+*.snm
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Editor-specific files
+*.swp
+*~
+\#*
+*.bak
+*.tmp
+
+# PDF and other compiled files (if you don't want to track them)
+*.pdf
+*.dvi
+*.ps
+
+# Build directory (if using one)
+_build/
